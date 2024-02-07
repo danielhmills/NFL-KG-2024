@@ -17,4 +17,4 @@ CREATE PROCEDURE ATTACH_FROM_CSV_DIR(IN table_name VARCHAR, IN file_directory VA
 };
 
 -- Attach all tables to nfl.pbp.data
-SELECT ATTACH_FROM_CSV_DIR('nfl.pbp.data','nfl-kg/data/','pbp-','csv',',','\n',null,1,VECTOR(1,2,3,4,5,6,7,8,9,10));
+SELECT ATTACH_FROM_CSV_DIR('nfl.pbp.data','NFL-KG-2024/data/','pbp-','csv',',','\n',null,1,VECTOR(1,2,3,4,5,6,7,8,9,10));
